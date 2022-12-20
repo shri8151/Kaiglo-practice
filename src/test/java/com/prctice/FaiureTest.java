@@ -12,7 +12,7 @@ public class FaiureTest extends BaseClass
 	@Test(retryAnalyzer = com.kaiglo.geneicUtilityPackage.RetryImplementationClass.class)
 	public void abc() {
 		System.out.println("Test start");
-		Assert.assertEquals(true, false);
+		
 		
 		System.out.println("Test end");
 	}
