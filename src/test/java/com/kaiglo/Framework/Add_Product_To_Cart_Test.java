@@ -27,7 +27,7 @@ public class Add_Product_To_Cart_Test extends BaseClass {
 	   @Test
 	   public void addProducttest() {
 
-//  	step 2:click on home button
+
 		commonPage.clickHomeTab();
          //Verify home page is displayed 
         MyAccountPage ma=new MyAccountPage(driver);
